@@ -1,0 +1,34 @@
+.head-main{
+    color: orange;
+}
+.lbl-require{
+    background-color: orange;
+    text-align: right;
+}
+
+.lbl-require-que{
+    /* text-align: right !important; */
+    padding-right: 10px;
+    color: #fff;
+}
+
+input , textarea{
+    border: 1px solid orange;
+    border-radius: 0px;
+    outline: 0px;
+    resize: none;
+}
+
+.thead-class{
+    background-color: orange;
+}
+
+.thead-class-num{
+    background-color: orange !important;
+}
+
+@media screen and (min-width: 480px) {
+    .lbl-require{
+        text-align: right !important;
+    }
+  }
